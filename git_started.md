@@ -1,10 +1,10 @@
 ﻿This conversation was generated with Duck.ai (https://duck.ai) using OpenAI's gpt-oss 120B Model. AI chats may display inaccurate or offensive information (see https://duckduckgo.com/duckai/privacy-terms for more info).
 
-====================
+---------------
 
 User prompt 1 of 1 - 2026-08-12, 11:06:15 a.m.:
 
-I'm teaching a workshop to academics on getting git and GitHub set up. What's the most painless way for me to guide them through installation, account setup, and authentication? They are not at all comfortable at the command line, and may have either Mac or Windows computers. They probably do not have VSCode, but might have RStudio.
+> I'm teaching a workshop to academics on getting git and GitHub set up. What's the most painless way for me to guide them through installation, account setup, and authentication? They are not at all comfortable at the command line, and may have either Mac or Windows computers. They probably do not have VSCode, but might have RStudio.
 
 gpt-oss 120B:
 
@@ -15,11 +15,13 @@ gpt-oss 120B:
 | **macOS** | **Git for macOS** (the “official” binary) **or** Homebrew cask `git` <br>*(download → drag‑to‑Applications)* | One‑click GUI installer; adds **Git** to `/usr/local/bin` automatically. |
 | **Windows** | **Git for Windows** (the Git for Windows installer) | Graphical wizard walks you through all options; the “Git Bash” terminal is optional – you can still use the command‑line‑free **Git Hub Desktop** later. |
 
-*Both installers place *Git* in the system PATH, so any GUI (RStudio, Git Hub Desktop, VS Code) can find it without extra configuration.*  
+Both installers **place Git in the system PATH**, so any GUI (RStudio, Git Hub Desktop, VS Code) can find it without extra configuration.
 
 ---
 
 ### 2. Install a graphical Git client (optional but highly recommended)
+
+[Devan's note: GitHub Desktop is strongly preferred.]
 
 | Client | Platforms | Key benefits for beginners |
 |--------|-----------|-----------------------------|
