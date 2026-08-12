@@ -2,5 +2,7 @@
 .Rhistory
 .RData
 .Ruserdata
-.html
+*.html
 .pdf.synctex.gz
+*.pdf
+*.docx
