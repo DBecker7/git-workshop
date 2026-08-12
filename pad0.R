@@ -10,5 +10,7 @@ pad0 <- function(number, pad) {
 	}
 
 	to_pad <- pad - n
-	paste0(paste0(rep("0", to_pad), collapse = ""), number)
+	rep("0", to_pad) |>
+	    paste0(collapse = "") |>
+	    paste0(number)
 }
