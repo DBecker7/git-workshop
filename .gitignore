@@ -3,6 +3,6 @@
 .RData
 .Ruserdata
 *.html
-.pdf.synctex.gz
+*.pdf.synctex.gz
 *.pdf
 *.docx
