@@ -3,7 +3,7 @@ pad0 <- function(number, pad) {
 	if (n > pad) {
 		stop(
 			paste0(
-				"Cannot pad a number with ", n, 
+				"Cannot pad a number with ", n,
 				" characters to a length of ", pad, "."
 			)
 		)
